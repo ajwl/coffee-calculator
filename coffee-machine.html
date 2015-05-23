@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<meta charset = "utf-8">
+	<title>Coffee Calculator</title>
+	
+	</head>
+	<body>
+		<h1> How much will coffee cost you IN YOUR LIFE?</h1>
+		
+		<h2> What takeaway coffee do you buy each day? </h2> 
+	
+		<div id = "wrapper">
+			<div class = "coffeeButton" id = "cappuccino" value = '2.5'><button>Cappuccino &pound2.50 </button></div>
+			<div class = "coffeeButton" id = "latte" value = '2.4'><button>Latte &pound2.40 </button></div>
+			<div class = "coffeeButton" id = "americano" value = '2.1'><button>Americano &pound2.10 </button></div>
+			<div class = "coffeeButton" id = "expresso" value = '1.5'><button>Expresso &pound1.50 </button></div>
+			<div class = "coffeeButton" id = "flatwhite" value = '2.5'><button>Flat White &pound2.50 </button></div>
+			<form id = "form1" onsubmit = "return addCoffeeForm()">
+			Or, input the amount you spend on coffee each day: &pound<input id = "userNumber" name = "userNumber" type = "number"><input type = "submit" > 
+			</form>
+		</div>
+
+		<div id = "dailyResults"></div>
+
+		<div id = "calculate"><button><h3>Calculate your LIFE bill</h3></button></div>
+
+		<div id = "results"></div>
+
+		<script src ="coffee-machine.js" ></script>
+	
+	</body>
+</html>
